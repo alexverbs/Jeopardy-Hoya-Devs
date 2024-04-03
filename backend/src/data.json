@@ -176,7 +176,7 @@
         ]
         },
       {
-        "name": "Me - Alex",
+        "name": "Me (Alex)",
         "questions": [
           {
             "points": 100,
@@ -198,14 +198,14 @@
           },
           {
             "points": 400,
-            "question": "",
-            "answer": "",
+            "question": "What is my favorite city that i've been to in Europe?",
+            "answer": "London, England",
             "answered": false
           },
           {
             "points": 500,
-            "question": "",
-            "answer": "",
+            "question": "How many times have I won Georgetowns COED IM Basketball Championship?",
+            "answer": "Twice!",
             "answered": false
           }
         ]

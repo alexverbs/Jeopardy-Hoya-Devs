@@ -1,0 +1,15 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 70px;
+    font-weight: bold;
+    color: red;
+    text-align: center; /* Center the title if needed */
+  }

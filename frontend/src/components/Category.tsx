@@ -1,7 +1,7 @@
 import React from "react";
 import { QuestionType } from "../types";
 import Question from "./Questions";
-//import "./Category.css";
+import "./Category.css";
 
 interface CategoryProps {
   title: string;

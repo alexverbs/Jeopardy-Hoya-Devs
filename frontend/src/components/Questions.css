@@ -1,0 +1,34 @@
+.question {
+    height: 120px;
+    width: 220px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .question.full-screen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 3vw;
+    z-index: 10;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* adds dropshadow */
+  .question:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
