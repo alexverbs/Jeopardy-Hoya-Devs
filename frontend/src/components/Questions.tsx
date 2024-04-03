@@ -35,9 +35,18 @@ const Question: React.FC<QuestionProps> = ({ points, question, answer }) => {
     questionClass += " full-screen";
   }
 
+  let displayText;
+  if (isAnswerShown) {
+    displayText = answer;
+  } else if (isBeingAnswered) {
+    displayText = question;
+  } else {
+    displayText = points;
+  }
+
   return (
     <div className={questionClass} onClick={handleClick}>
-      {isAnswerShown ? answer : isBeingAnswered ? question : points}
+      {displayText}
     </div>
   );
 };

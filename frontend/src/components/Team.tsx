@@ -17,6 +17,7 @@ const Team: React.FC<TeamProps> = ({ name, points, setPoints, removePoints }) =>
       </div>
       <div>
         <div className="add">
+        <button onClick={() => setPoints(-points)}>clear</button>
         <button onClick={() => setPoints(100)}>100</button>
         <button onClick={() => setPoints(200)}>200</button>
         <button onClick={() => setPoints(300)}>300</button>

@@ -10,6 +10,7 @@ interface GameboardProps {
 const Gameboard: React.FC<GameboardProps> = ({ categories }) => {
   return (
     <>
+    <div className="game-container">
       <h1>Alex Verbesey's Jeopardy</h1>
       <div className="board">
         {categories.map((category, index) => {
@@ -22,6 +23,7 @@ const Gameboard: React.FC<GameboardProps> = ({ categories }) => {
           );
         })}
       </div>
+    </div>
     </>
   );
 };
