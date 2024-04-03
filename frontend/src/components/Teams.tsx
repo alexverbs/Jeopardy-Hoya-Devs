@@ -1,6 +1,6 @@
 import React from "react";
 import Team from "./Team";
-//import "./Teams.css";
+import "./Teams.css";
 
 const Teams: React.FC = () => {
   const [points1, setPoints1] = React.useState<number>(0);
