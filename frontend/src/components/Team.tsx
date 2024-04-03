@@ -5,9 +5,10 @@ interface TeamProps {
   name: string;
   points: number;
   setPoints: (points: number) => void;
+  removePoints: (points: number) => void;
 }
 
-const Team: React.FC<TeamProps> = ({ name, points, setPoints }) => {
+const Team: React.FC<TeamProps> = ({ name, points, setPoints, removePoints }) => {
   return (
     <div>
       <div className="points">
@@ -20,6 +21,10 @@ const Team: React.FC<TeamProps> = ({ name, points, setPoints }) => {
         <button onClick={() => setPoints(300)}>300</button>
         <button onClick={() => setPoints(400)}>400</button>
         <button onClick={() => setPoints(500)}>500</button>
+        <button onClick={() => removePoints(100)}>-100</button>
+        <button onClick={() => removePoints(200)}>-200</button>
+        <button onClick={() => removePoints(300)}>-300</button>
+        <button onClick={() => removePoints(400)}>-400</button>
       </div>
     </div>
   );
