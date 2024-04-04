@@ -9,7 +9,7 @@
   }
   
   button {
-    background-color: #f0f0f0;
+    background-color: #53687E;
     border: 1px solid #f0f0f0;
     border-radius: 10px;
     border-width: 1px;
@@ -18,7 +18,7 @@
     padding-right: 4px;
     margin-left: 1px;
     margin-right: 1px;
-    border-color: black;
+    border-color: white;
     cursor: pointer;
     font-size: 20px;
     margin-bottom: 3px;
@@ -41,5 +41,5 @@
   }
 
   .teamStyle{
-    background-color: lightblue;
+    background-color: #3A4454;
   }

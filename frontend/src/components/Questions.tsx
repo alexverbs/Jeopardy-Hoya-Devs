@@ -34,6 +34,10 @@ const Question: React.FC<QuestionProps> = ({ points, question, answer }) => {
   if (isBeingAnswered) {
     questionClass += " full-screen";
   }
+  else if (!isBeingAnswered && !isAnswerShown && !answered) 
+  {
+    questionClass += " large-text";
+  }
 
   let displayText;
   if (isAnswerShown) {

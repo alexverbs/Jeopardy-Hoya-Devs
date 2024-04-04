@@ -2,5 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: lightblue;
+    background-color: #3A4454;
+    color: white;
   }
