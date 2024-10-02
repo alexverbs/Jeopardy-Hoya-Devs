@@ -14,7 +14,7 @@ Responsive Design: Enjoy the game with a user-friendly interface.
 
 Front End: Built with React, allowing for a dynamic and interactive user experience.
 
-Back End: Developed in JavaScript to manage game logic and data storage.
+Back End: Developed in TypeScript to manage game logic and data storage.
 
 **Learning Experience:**
 
