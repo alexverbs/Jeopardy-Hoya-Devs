@@ -1,16 +1,19 @@
 Welcome to my Jeopardy game! This project is a fun way to test your trivia knowledge across five exciting categories. One of those categories is about me!
 
-**Project Overview******
+# Project Overview
 
 **This Jeopardy game features:**
 
 Five Categories: Test your knowledge in a variety of subjects (including me lol).
+
 Scoreboard: Keep track of your points and see who's wins the game among your friends.
+
 Responsive Design: Enjoy the game with a user-friendly interface.
 
 **Tech Stack:**
 
 Front End: Built with React, allowing for a dynamic and interactive user experience.
+
 Back End: Developed in JavaScript to manage game logic and data storage.
 
 **Learning Experience:**
